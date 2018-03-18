@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { PasswordPipe } from '../pipes/password.pipe';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PasswordPipe
   ],
   imports: [
     BrowserModule
